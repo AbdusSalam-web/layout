@@ -1,0 +1,6 @@
+.home  {
+@apply bg-[green] h-[32.6vh] flex  items-center;
+    h1{
+        @apply font-bold font-Inter text-[36px] text-[white]  flex gap-[20px] items-center justify-center ;
+    }
+}

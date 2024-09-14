@@ -1,0 +1,27 @@
+nav {
+    @apply w-full mx-auto bg-[#151D20] h-[10vh] flex items-center;
+}
+
+.navbar {
+    @apply flex items-center justify-between
+}
+
+nav .logo {
+    @apply font-Poppins text-[22px] tracking-widest text-[#FBFBFB] font-bold;
+}
+
+nav .logo span {
+    @apply text-[#27AE60];
+}
+
+.navlink {
+    @apply flex gap-[54px] items-center transition-all duration-500
+}
+
+.navlink li a {
+    @apply font-Inter text-[20px] font-semibold text-[#C6CDD5]
+}
+
+.navlink li a:hover {
+    @apply text-[#FBFBFB]
+}

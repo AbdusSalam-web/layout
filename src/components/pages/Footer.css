@@ -1,0 +1,45 @@
+footer {
+  @apply w-full bg-[#000];
+}
+footer .container {
+  @apply flex flex-col;
+}
+footer .container .footerRow {
+  @apply pt-[50px] pb-[100px] flex items-center justify-between;
+}
+footer .container .footerRow .footerLinks {
+  @apply flex w-[900px]  justify-between;
+}
+footer .container .footerRow .footerLinks div {
+  @apply flex flex-col;
+}
+footer .container .footerRow .footerLinks p {
+  @apply font-Inter font-normal text-[15px] leading-[20px] text-[rgba(255,255,255,0.65)] mb-[25px];
+}
+footer .container .footerRow .footerLinks div {
+  @apply flex flex-col gap-[15px];
+}
+footer .container .footerRow .footerLinks div a {
+  @apply font-Inter font-bold text-[16px] text-[#FFF];
+}
+footer .container .footerRowTwo {
+  @apply flex items-center justify-between py-[18px];
+}
+footer .container .footerRowTwo .copyright {
+  @apply flex gap-[25px];
+}
+footer .container .footerRowTwo .copyright p {
+  @apply text-[rgba(255,255,255,0.65)] font-Inter font-normal text-[13px]  leading-[18px];
+}
+footer .container .footerRowTwo .copyright a {
+  @apply text-[rgba(255,255,255,0.65)] font-Inter font-normal text-[13px]  leading-[18px];
+}
+footer .container .footerRowTwo .socialLink {
+  @apply text-[rgba(255,255,255,0.65)] flex gap-[16px];
+}
+footer .container .footerRowTwo .socialLink .icon {
+  @apply transition-all duration-500 ease-in-out;
+}
+footer .container .footerRowTwo .socialLink .icon:hover {
+  @apply text-[yellow];
+}/*# sourceMappingURL=Footer.css.map */

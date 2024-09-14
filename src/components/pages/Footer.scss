@@ -1,0 +1,45 @@
+footer {
+  @apply w-full bg-[#000];
+  .container {
+    @apply flex flex-col;
+    .footerRow {
+      @apply pt-[50px] pb-[100px] flex items-center justify-between;
+      .footerLinks {
+        @apply flex w-[900px]  justify-between;
+        div {
+          @apply flex flex-col;
+        }
+        p {
+          @apply font-Inter font-normal text-[15px] leading-[20px] text-[rgba(255,255,255,0.65)] mb-[25px];
+        }
+        div {
+          @apply flex flex-col gap-[15px];
+          a {
+            @apply font-Inter font-bold text-[16px] text-[#FFF];
+          }
+        }
+      }
+    }
+    .footerRowTwo {
+      @apply flex items-center justify-between py-[18px];
+      .copyright {
+        @apply flex gap-[25px];
+        p {
+          @apply text-[rgba(255,255,255,0.65)] font-Inter font-normal text-[13px]  leading-[18px];
+        }
+        a {
+          @apply text-[rgba(255,255,255,0.65)] font-Inter font-normal text-[13px]  leading-[18px];
+        }
+      }
+      .socialLink {
+        @apply text-[rgba(255,255,255,0.65)] flex gap-[16px];
+        .icon {
+          @apply transition-all duration-500 ease-in-out;
+          &:hover {
+            @apply text-[yellow];
+          }
+        }
+      }
+    }
+  }
+}

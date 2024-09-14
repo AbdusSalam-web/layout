@@ -1,0 +1,6 @@
+.blog  {
+@apply bg-[#686de0] h-[32.6vh] flex  items-center;
+    p{
+        @apply font-bold font-Inter text-[36px] text-[white]  flex gap-[20px] items-center justify-center ;
+    }
+}
